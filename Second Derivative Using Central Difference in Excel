@@ -1,0 +1,74 @@
+Second Derivative Using Central Difference in Excel
+Overview
+This project demonstrates the implementation of the **Central Difference O(h²)** method using **Microsoft Excel** to approximate the second derivative of a mathematical function.
+The analysis is performed using two different step sizes (*h*) to investigate how the interval size influences the accuracy of the numerical approximation. The numerical results are compared with the analytical solution through relative error analysis.
+
+Objectives
+- Implement the Central Difference O(h²) method in Microsoft Excel.
+- Approximate the second derivative of a mathematical function.
+- Evaluate the influence of different step sizes on approximation accuracy.
+- Compare numerical results with the analytical derivative.
+- Visualize the function using charts.
+
+Methods
+The following numerical differentiation method is implemented:
+- Central Difference O(h²)
+
+The analysis is carried out using two different step sizes:
+-h = 0.10
+-h = 0.01
+
+Results
+| Step Size | Approximation | Relative Error |
+|-----------|--------------:|---------------:|
+| h = 0.10 | 36.6419535041 | 0.132% |
+| h = 0.01 | **36.5940197930** | **0.0013%** |
+The comparison shows that reducing the step size significantly improves the approximation accuracy. The **Central Difference O(h²)** method achieves an approximation very close to the analytical derivative when a smaller interval is used.
+
+Visualizations
+This project includes:
+- Function graph (h = 0.10)
+- Function graph (h = 0.01)
+- Numerical approximation results
+- Relative error analysis
+
+Tools
+- Microsoft Excel
+- Numerical Methods
+- Central Difference Method
+- Error Analysis
+- Data Visualization
+
+Repository Structure
+```
+├── Second_Derivative_Central_Difference.xlsx
+├── README.md
+└── images/
+    ├── function_graph_h_0_10.png
+    └── function_graph_h_0_01.png
+```
+
+Key Findings
+- The Central Difference O(h²) method provides highly accurate numerical approximations.
+- A smaller step size (*h*) significantly reduces the relative error.
+- The approximation error decreased from **0.132%** to **0.0013%** when using a finer interval.
+- Microsoft Excel can effectively perform numerical differentiation and error analysis without requiring programming languages.
+
+Skills Demonstrated
+- Numerical Analysis
+- Microsoft Excel
+- Finite Difference Methods
+- Central Difference Method
+- Error Analysis
+- Mathematical Modeling
+- Data Visualization
+- Spreadsheet Modeling
+- Problem Solving
+
+Author
+Oktaviani Putri
+
+Statistics Undergraduate Student
+Aspiring Data Analyst
+
+If you find this project useful, please consider giving this repository a ⭐.
